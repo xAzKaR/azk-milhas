@@ -1,0 +1,17 @@
+.depoimento {
+  max-width: 320px;
+  background-color: #FEF7FF;
+  border: none;
+
+  .depoimento-header {
+    display: flex;
+    align-items: center;
+  }
+
+  .avatar {
+    max-width: 60px;
+    max-height: 56px;
+    margin-top: 16px;
+    margin-right: 12px; /* Ajuste o espaçamento entre a imagem e o texto */
+  }
+}

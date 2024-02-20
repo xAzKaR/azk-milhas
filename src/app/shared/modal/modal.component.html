@@ -1,0 +1,57 @@
+<section class="modal">
+  <h1 mat-dialog-title>Viajante</h1>
+  <div mat-dialog-content>
+    <div class="selecao-idade">
+      <ul>
+        <li>Adultos</li>
+        <li>(Acima de 12 anos)</li>
+        <li>
+          <button class="decremento" mat-mini-fab>
+            <img src="assets/icones/do_not_disturb_on.png" alt="Operador de Sub">
+          </button>
+          <span>1</span>
+          <button class="incremento" mat-mini-fab>
+            <img src="assets/icones/add_circle.png" alt="Operador de adição">
+          </button>
+        </li>
+      </ul>
+      <ul>
+        <li>Crianças</li>
+        <li>(Entre 2 e 11 anos)</li>
+        <li>
+          <button class="decremento" mat-mini-fab>
+            <img src="assets/icones/do_not_disturb_on.png" alt="Operador de Sub">
+          </button>
+          <span>0</span>
+          <button class="incremento" mat-mini-fab>
+            <img src="assets/icones/add_circle.png" alt="Operador de adição">
+          </button>
+        </li>
+      </ul>
+      <ul>
+        <li>Bebês</li>
+        <li>(Até 2 anos)</li>
+        <li>
+          <button class="decremento" mat-mini-fab>
+            <img src="assets/icones/do_not_disturb_on.png" alt="Operador de Sub">
+          </button>
+          <span>0</span>
+          <button class="incremento" mat-mini-fab>
+            <img src="assets/icones/add_circle.png" alt="Operador de adição">
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="selecao-categoria">
+      <h2>Categoria</h2>
+      <mat-chip-listbox aria-label="Seleção de categoria">
+        <mat-chip-option selected>Executiva</mat-chip-option>
+        <mat-chip-option>Econômica</mat-chip-option>
+      </mat-chip-listbox>
+    </div>
+  </div>
+  <div class="modal-actions" mat-dialog-actions>
+    <button mat-raised-button color="primary">Buscar</button>
+    <button mat-button mat-dialog-close>Fechar</button>
+  </div>
+</section>
